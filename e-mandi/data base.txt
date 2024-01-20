@@ -1,0 +1,91 @@
+------desgin data base -----
+
+create database e_mandi;
+use e_mandi;
+
+----------------------------
+
+--- lodin table----
+
+create table tbllogin (
+
+   userId  varchar(25) primary key,
+   Pass varchar(30),
+   squs varchar(100),
+  sans varchar(50),
+  wmode varchar(10) default 'USER'
+
+);
+
+-------------------------------
+----Photo table----
+ create table tblPhoto
+(
+	id int(5) primary key auto_increment,
+	photo longblob
+
+
+);
+
+
+---------------------
+
+---- Registration table ---
+create table tblRegistration (
+	
+	userId varchar(20) references tbllogin(userId),
+	name varchar(40),
+
+	gender varchar(10),
+	dob date,
+	mobile varchar(14),
+	email varchar(40),
+	address varchar(200),
+	pin varchar(6),
+	lastmodified datetime
+
+);
+-----------------------------
+-----  table complaint ----
+
+create table tblcomplaint(
+
+sno int(5) primary key auto_increment,
+USERID varchar(20) references tbllogin(userId),
+subject varchar(100),
+MESSAGE varchar(500),
+COMPLAINT_DATE datetime,
+COMPLAINT_STATUS varchar (10) default 'PENDING',
+RESOLVEMESSAGE varchar(200) default '',
+RESOLVE_DATE datetime
+
+);
+-----------------------------
+
+----- table contect------
+
+create table tblcontactus(
+
+sno int(5) primary key auto_increment,
+name varchar(30),
+USERId varchar(20) references tbllogin(userId),
+
+EMAILID varchar(100),
+MOBILE varchar(14),
+MESSAGE varchar(500),
+
+Contact_date datetime
+);
+-----------------------
+-------- table feedback-------
+create table tblfeedback(
+
+sno int(5) primary key auto_increment,
+name varchar(30),
+userId varchar(20) references tbllogin(userId),
+emailId varchar(100),
+message varchar(500),
+mobile varchar(14),
+DATE_OF_FEEDBACK datetime
+);
+--------------------------------
