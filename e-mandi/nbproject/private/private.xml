@@ -2,37 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/project/e-mandi/web/index.jsp</file>
-            <file>file:/D:/project/e-mandi/web/Feedback.jsp</file>
-            <file>file:/D:/project/e-mandi/web/Contactus.jsp</file>
-            <file>file:/D:/project/e-mandi/src/java/feedback/FeedbackAction.java</file>
-            <file>file:/D:/project/e-mandi/src/java/contact/ContactInfoReport.java</file>
-            <file>file:/D:/project/e-mandi/web/Quary.jsp</file>
-            <file>file:/D:/project/e-mandi/src/java/complaint/ComplaintAction.java</file>
-            <file>file:/D:/project/e-mandi/web/products.jsp</file>
-            <file>file:/D:/project/e-mandi/src/java/feedback/DeleteFeedback.java</file>
-            <file>file:/D:/project/e-mandi/src/java/complaint/UpdComplaintAction.java</file>
-            <file>file:/D:/project/e-mandi/src/java/complaint/GetComplaint.java</file>
-            <file>file:/D:/project/e-mandi/src/java/db/ChangePassAction.java</file>
-            <file>file:/D:/project/e-mandi/src/java/db/JSP.java</file>
-            <file>file:/D:/project/e-mandi/src/java/db/RegisterAction.java</file>
-            <file>file:/D:/project/e-mandi/src/java/feedback/FeedbackReport.java</file>
-            <file>file:/D:/project/e-mandi/web/Aboutus.jsp</file>
-            <file>file:/D:/project/e-mandi/src/java/contact/ContactAction.java</file>
-            <file>file:/D:/project/e-mandi/src/java/db/UserReport.java</file>
-            <file>file:/D:/project/e-mandi/web/FAQ.jsp</file>
-            <file>file:/D:/project/e-mandi/web/City.jsp</file>
-            <file>file:/D:/project/e-mandi/src/java/db/DB.java</file>
-            <file>file:/D:/project/e-mandi/src/java/db/ValidateAction.java</file>
-            <file>file:/D:/project/e-mandi/src/java/contact/DeleteContact.java</file>
-            <file>file:/D:/project/e-mandi/src/java/dp/impl/UserDAOImpl.java</file>
-            <file>file:/D:/project/e-mandi/src/java/db/MyListener.java</file>
-            <file>file:/D:/project/e-mandi/src/java/complaint/ComplaintsReport.java</file>
-            <file>file:/D:/project/e-mandi/src/java/complaint/DeleteComplaint.java</file>
-            <file>file:/D:/project/e-mandi/web/SignUp.jsp</file>
-            <file>file:/D:/project/e-mandi/src/java/db/UserDAO.java</file>
-            <file>file:/D:/project/e-mandi/src/java/db/PhotoAction.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
